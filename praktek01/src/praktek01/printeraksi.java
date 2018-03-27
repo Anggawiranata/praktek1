@@ -10,6 +10,10 @@ package praktek01;
  * @author USER
  */
 public class printeraksi {
-   
+   public static void main(String[] args){
+        printer led = new printer();
+        printer laserjet = new printer();
+        printer plotter = new printer();
+   }
       
 }
