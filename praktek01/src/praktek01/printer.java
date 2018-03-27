@@ -10,5 +10,18 @@ package praktek01;
  * @author USER
  */
 public class printer {
+    String merk;
+    double harga;
+    String jenis;
+    String kualitas;
+    String type;
     
+    void menggantitinta(){
+    System.out.println("Merk : "+merk);
+    System.out.println("Harga : "+harga);
+    System.out.println("Jenis : "+jenis);
+    System.out.println("Kualitas : "+kualitas);
+    System.out.println("Type : "+type);
+    }        
+            
 }
