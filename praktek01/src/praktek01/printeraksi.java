@@ -19,20 +19,27 @@ public class printeraksi {
         led.harga=650.000;
         led.jenis="ink jet";
         led.kualitas="baik";
-        led.type="ip2770";
+        led.type="ip";
         
        
         laserjet.merk="epson";
         laserjet.harga=1000.000;
         laserjet.jenis="dot matrix";
         laserjet.kualitas="sangat baik";
-        laserjet.type="epsonl30";
+        laserjet.type="epson";
+        
         
         plotter.merk="hp";
         plotter.harga=1.500;
         plotter.jenis="ink jet";
         plotter.kualitas="baik";
-        plotter.type="hp230";
+        plotter.type="hp";
+        
+        
+        led.menggantitinta();
+        laserjet.menggantitinta();
+        plotter.menggantitinta();
+        
    }
       
 }
